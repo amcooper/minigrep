@@ -2,8 +2,8 @@ use std::error::Error;
 use std::fs;
 
 pub struct Config {
-    query: String,
-    filename: String
+    pub query: String,
+    pub filename: String,
 }
 
 impl Config {
