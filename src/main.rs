@@ -1,9 +1,9 @@
-extern crate minigrep;
+// extern crate minigrep;
 
 use std::env;
 use std::process;
 
-// use minigrep;
+use minigrep;
 use minigrep::Config;
 
 fn main() {
